@@ -3,13 +3,10 @@ pipelines:
     steps:
       - name: First_Step
         type: Bash
-        configuration:
-          integrations:
-            - name: simple_mail
         execution: 
           onExecute:
             - echo "Step 1"
-            - sleep 1m
+            - sleep 10s
             
       - name: Second_Step
         type: Bash
