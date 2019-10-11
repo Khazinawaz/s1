@@ -5,7 +5,7 @@ pipelines:
         type: Bash
         execution: 
           onExecute:
-            - echo "Step 1 changed"
+            - echo "Step 1 changed will change"
             - sleep 1m
             
       - name: Second_Step
