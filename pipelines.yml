@@ -5,7 +5,7 @@ pipelines:
         type: Bash
         execution: 
           onExecute:
-            - echo "Step 1 changedd"
+            - echo "Step 1 master sync"
             - sleep 1m
             
       - name: Second_Step
