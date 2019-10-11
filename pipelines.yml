@@ -5,7 +5,7 @@ pipelines:
         type: Bash
         execution: 
           onExecute:
-            - echo "Step 1 master sync4 triggers"
+            - echo "Step 1 master sync4 triggersd"
             - sleep 1m
             
       - name: Second_Step
