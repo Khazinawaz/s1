@@ -5,7 +5,7 @@ pipelines:
         type: Bash
         execution: 
           onExecute:
-            - echo "Step 1 shouldnt  sync no"
+            - echo "Step 1 shouldnt  sync nno"
             - sleep 10s
             
       - name: Second_Step
