@@ -5,7 +5,7 @@ pipelines:
         type: Bash
         execution: 
           onExecute:
-            - echo "Step 1 changed must sync webhooks"
+            - echo "Step 1 changed"
             - sleep 1m
             
       - name: Second_Step
